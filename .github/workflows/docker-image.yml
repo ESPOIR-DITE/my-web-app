@@ -30,4 +30,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/my-web-app:25.10.23.01
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/my-web-app:25.10.23.02
